@@ -4,7 +4,7 @@
 # {{ $onbuild := "" }}
 # {{ if eq $flavour "onbuild" }}{{ $onbuild = "ONBUILD " }}{{ end }}
 
-FROM quay.io/evryfs/base-ubuntu:focal-20210325
+FROM quay.io/evryfs/base-ubuntu:focal-20210401
 
 {{ $onbuild }}ARG RUNNER_VERSION=2.277.1
 
